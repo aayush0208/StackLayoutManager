@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView.SCROLL_STATE_IDLE
 import android.view.View
 import android.view.ViewGroup
 
-class StackLayoutManager(scrollOrientation: ScrollOrientation,
+open class StackLayoutManager(scrollOrientation: ScrollOrientation,
                           visibleCount: Int,
                           animation: Class<out StackAnimation>,
                           layout: Class<out StackLayout>) : RecyclerView.LayoutManager() {
